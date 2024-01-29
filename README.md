@@ -14,8 +14,6 @@ I am Raihan, love teaching, coding and something new
   </a>
 </p>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=raihan-muhammad&hide=TeX&layout=compact&theme=light)
-
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=raihan-muhammad.raihan-muhammad)
 
 

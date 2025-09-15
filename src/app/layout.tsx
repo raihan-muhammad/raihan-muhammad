@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope, Gantari } from "next/font/google";
 import "./globals.css";
 import formatMetadata from "@/utils/formatMetadata";
+import StyledComponentsRegistry from "@/lib/registry";
 
 const GantariSans = Gantari({
   variable: "--font-gantari",
@@ -34,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${GantariSans.variable} ${ManropeSans.variable}`}>
-        {children}
+        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
       </body>
     </html>
   );

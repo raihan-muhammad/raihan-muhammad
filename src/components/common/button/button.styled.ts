@@ -8,9 +8,9 @@ export const StyledButton = styled.button<{
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid transparent;
-  border-radius: 8px;
-  font-weight: 600;
+  border-radius: 60px;
+  font-weight: bold;
+  border: none;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -26,7 +26,7 @@ export const StyledButton = styled.button<{
         `;
       case "large":
         return css`
-          padding: 16px 24px;
+          padding: 24px 17px;
           font-size: 18px;
           min-height: 56px;
         `;
@@ -62,17 +62,8 @@ export const StyledButton = styled.button<{
         `;
       case "secondary":
         return css`
-          background-color: transparent;
-          color: #3b82f6;
-          border-color: #3b82f6;
-
-          &:hover:not(:disabled) {
-            background-color: #f8fafc;
-            border-color: #2563eb;
-            color: #2563eb;
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
-          }
+          background-color: #e6e6e6;
+          color: #0f0e0e;
 
           &:active:not(:disabled) {
             background-color: #e2e8f0;
